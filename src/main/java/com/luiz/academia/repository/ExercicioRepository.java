@@ -8,5 +8,4 @@ import com.luiz.academia.entity.Exercicio;
 @Repository
 public interface ExercicioRepository extends JpaRepository<Exercicio, Long>{
 
-	public Exercicio findById();
 }
